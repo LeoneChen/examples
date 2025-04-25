@@ -28,6 +28,7 @@ fs.mounts = [
 {% endfor %}
 
   { type = "tmpfs", path = "/tmp" },
+  { path = "/pytorchexample.py", uri = "file:pytorchexample.py" },
 ]
 
 sgx.enclave_size = "4G"
